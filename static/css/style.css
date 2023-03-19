@@ -83,6 +83,7 @@ div.actu-news {
 @media all and (max-width: 800px) {
   div.actu {
     flex-direction: column-reverse;
+    align-items: center;
   }
 }
 
