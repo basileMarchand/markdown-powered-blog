@@ -80,6 +80,12 @@ div.actu-news {
   padding: 2ex;
 }
 
+@media all and (max-width: 800px) {
+  div.actu {
+    flex-direction: column-reverse;
+  }
+}
+
 body.no-scroll {
   overflow-y: hidden;
 }
