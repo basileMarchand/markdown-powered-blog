@@ -424,6 +424,10 @@ code {
   width: 400px !important;
 }
 
+.footer-copyright {
+  font-size: xx-small;
+}
+
 /* responsive design */
 
 @media all and (max-width: 1200px) {
@@ -506,6 +510,13 @@ code {
 
   .profile_pic {
     width: 100% !important;
+  }
+
+  div.footer-copyright p {
+    font-size: 6px;
+  }
+  div.footer-copyright i {
+    font-size: 6px;
   }
 }
 
