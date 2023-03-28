@@ -1,5 +1,5 @@
 const navigate = document.querySelector("button.menu-button");
-const close = document.querySelector("button.menu__close");
+const close = document.querySelector("div.menu__close");
 const menu = document.getElementById("menu");
 
 navigate.addEventListener("click", (e) => {

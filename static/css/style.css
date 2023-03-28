@@ -578,6 +578,10 @@ code {
   z-index: 9999;
 }
 
+div.menu__close:hover {
+  cursor: pointer;
+}
+
 @media (min-width: 750px) {
   .menu__close {
     display: none;
