@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "node optimize.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "NODE_ENV=dev node index.js",
+    "prod": "npm run build ; NODE_ENV=production node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@node-minify/clean-css": "^8.0.6",
+    "@node-minify/core": "^8.0.6",
+    "@node-minify/uglify-js": "^8.0.6",
     "ejs": "^3.1.8",
     "express": "^4.18.1",
     "fs": "^0.0.1-security",
